@@ -20,10 +20,14 @@ namespace ticketissuesystem.Data
 
         public DbSet<Inventory> Inventory  => Set<Inventory>();
 
+
+
+        public DbSet<Ticket> Ticket => Set<Ticket>();
+
         //public DbSet<Civilstatus> Civilstatus => Set<Civilstatus>();
 
 
-       
+
 
 
     }

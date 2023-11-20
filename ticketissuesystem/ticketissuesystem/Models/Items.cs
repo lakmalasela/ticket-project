@@ -16,9 +16,6 @@ namespace ticketissuesystem.Models
 
         public decimal Unitprice { get; set; }
 
-        [DataType(DataType.Date)]
-        public required DateTime Purchasedate { get; set; }
-
         public List<Inventory>?  Inventories { get; set; }
 
     }

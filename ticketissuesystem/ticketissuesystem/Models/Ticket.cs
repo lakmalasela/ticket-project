@@ -7,15 +7,14 @@ namespace ticketissuesystem.Models
     {
 
         public int Id { get; set; }
-        public required string Fullname { get; set; }
 
         [DataType(DataType.Date)]  
         public required DateTime Issuedate { get; set; }
 
 
-        public required string TicketNumber { get; set; }
+        public required string Ticketnumber { get; set; }
 
-        public string description { get; set; }
+        public string Description { get; set; }
     
         public required Issuetype Issuetype  { get; set; }
 
@@ -36,10 +35,11 @@ namespace ticketissuesystem.Models
 
 
 
+       
 
 
 
-
+        public required string JobStatus { get; set; } = "Pending"; //inprogress --> completed or rejected
 
 
 
